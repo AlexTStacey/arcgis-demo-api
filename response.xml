@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE WMT_MS_Capabilities SYSTEM "http://schemas.opengis.net/wms/1.1.1/WMS_MS_Capabilities.dtd"
+ [
+ <!ELEMENT VendorSpecificCapabilities EMPTY>
+ ]>  <!-- end of DOCTYPE declaration -->
+
+<WMT_MS_Capabilities version="1.1.1">
+<Service>
+  <Name>OGC:WMS</Name>
+  <Title>IEM WMS Iowa Rainfall</Title>
+  <Abstract>Ba Ba Ba</Abstract>
+  <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://mesonet.agron.iastate.edu/cgi-bin/wms/iowa/rainfall.cgi?"/>
+  <ContactInformation>
+    <ContactPersonPrimary>
+      <ContactPerson>Daryl Herzmann</ContactPerson>
+      <ContactOrganization>Iowa State University</ContactOrganization>
+    </ContactPersonPrimary>
+  </ContactInformation>
+  <AccessConstraints>None</AccessConstraints>
+</Service>
+
+<Capability>
+  <Request>
+    <GetCapabilities>
+      <Format>application/vnd.ogc.wms_xml</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://mesonet.agron.iastate.edu/cgi-bin/wms/iowa/rainfall.cgi?"/></Get>
+          <Post><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://mesonet.agron.iastate.edu/cgi-bin/wms/iowa/rainfall.cgi?"/></Post>
+        </HTTP>
+      </DCPType>
+    </GetCapabilities>
+    <GetMap>
+      <Format>image/png</Format>
+      <Format>image/jpeg</Format>
+      <Format>image/png; mode=8bit</Format>
+      <Format>image/vnd.jpeg-png</Format>
+      <Format>image/vnd.jpeg-png8</Format>
+      <Format>application/x-pdf</Format>
+      <Format>image/svg+xml</Format>
+      <Format>image/tiff</Format>
+      <Format>application/json</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://mesonet.agron.iastate.edu/cgi-bin/wms/iowa/rainfall.cgi?"/></Get>
+          <Post><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://mesonet.agron.iastate.edu/cgi-bin/wms/iowa/rainfall.cgi?"/></Post>
+        </HTTP>
+      </DCPType>
+    </GetMap>
+    <GetFeatureInfo>
+      <Format>text/plain</Format>
+      <Format>application/vnd.ogc.gml</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://mesonet.agron.iastate.edu/cgi-bin/wms/iowa/rainfall.cgi?"/></Get>
+          <Post><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://mesonet.agron.iastate.edu/cgi-bin/wms/iowa/rainfall.cgi?"/></Post>
+        </HTTP>
+      </DCPType>
+    </GetFeatureInfo>
+    <DescribeLayer>
+      <Format>text/xml</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://mesonet.agron.iastate.edu/cgi-bin/wms/iowa/rainfall.cgi?"/></Get>
+          <Post><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://mesonet.agron.iastate.edu/cgi-bin/wms/iowa/rainfall.cgi?"/></Post>
+        </HTTP>
+      </DCPType>
+    </DescribeLayer>
+    <GetLegendGraphic>
+      <Format>image/png</Format>
+      <Format>image/jpeg</Format>
+      <Format>image/png; mode=8bit</Format>
+      <Format>image/vnd.jpeg-png</Format>
+      <Format>image/vnd.jpeg-png8</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://mesonet.agron.iastate.edu/cgi-bin/wms/iowa/rainfall.cgi?"/></Get>
+          <Post><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://mesonet.agron.iastate.edu/cgi-bin/wms/iowa/rainfall.cgi?"/></Post>
+        </HTTP>
+      </DCPType>
+    </GetLegendGraphic>
+    <GetStyles>
+      <Format>text/xml</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://mesonet.agron.iastate.edu/cgi-bin/wms/iowa/rainfall.cgi?"/></Get>
+          <Post><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://mesonet.agron.iastate.edu/cgi-bin/wms/iowa/rainfall.cgi?"/></Post>
+        </HTTP>
+      </DCPType>
+    </GetStyles>
+  </Request>
+  <Exception>
+    <Format>application/vnd.ogc.se_xml</Format>
+    <Format>application/vnd.ogc.se_inimage</Format>
+    <Format>application/vnd.ogc.se_blank</Format>
+  </Exception>
+  <VendorSpecificCapabilities />
+  <UserDefinedSymbolization SupportSLD="1" UserLayer="0" UserStyle="1" RemoteWFS="0"/>
+  <Layer>
+    <Name>iemtest</Name>
+    <Title>IEM WMS Iowa Rainfall</Title>
+    <Abstract>Ba Ba Ba</Abstract>
+    <SRS>EPSG:26915</SRS>
+    <SRS>EPSG:3857</SRS>
+    <SRS>EPSG:4326</SRS>
+    <LatLonBoundingBox minx="-96.753874" miny="39.697157" maxx="-90.370861" maxy="44.253237" />
+    <BoundingBox SRS="EPSG:26915"
+                minx="200000" miny="4.4e+06" maxx="710000" maxy="4.9e+06" />
+    <Layer>
+      <Name>sevendays_rainfall</Name>
+      <Title>RAIN7</Title>
+      <Abstract>sevendays_rainfall</Abstract>
+    <Style>
+       <Name>default</Name>
+       <Title>default</Title>
+       <LegendURL width="99" height="245">
+          <Format>image/png</Format>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://mesonet.agron.iastate.edu/cgi-bin/wms/iowa/rainfall.cgi?version=1.1.1&amp;service=WMS&amp;request=GetLegendGraphic&amp;layer=sevendays_rainfall&amp;format=image/png&amp;STYLE=default"/>
+       </LegendURL>
+    </Style>
+      <Layer queryable="0" opaque="0" cascaded="0">
+        <Name>sevendays_rainfall_data</Name>
+        <Title>Past 7 days</Title>
+        <SRS>EPSG:26915</SRS>
+        <LatLonBoundingBox minx="-96.679456" miny="40.327823" maxx="-90.055307" maxy="43.570663" />
+        <BoundingBox SRS="EPSG:26915"
+                    minx="202582" miny="4.47003e+06" maxx="737939" maxy="4.82419e+06" />
+        <MetadataURL type="TC211">
+          <Format>text/xml</Format>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://mesonet.agron.iastate.edu/cgi-bin/wms/iowa/rainfall.cgi?request=GetMetadata&amp;layer=sevendays_rainfall_data"/>
+        </MetadataURL>
+        <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="99" height="230">
+             <Format>image/png</Format>
+             <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://mesonet.agron.iastate.edu/cgi-bin/wms/iowa/rainfall.cgi?version=1.1.1&amp;service=WMS&amp;request=GetLegendGraphic&amp;layer=sevendays_rainfall_data&amp;format=image/png&amp;STYLE=default"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0">
+        <Name>sevendays_rainfall_legend</Name>
+        <Title>rain7 legend</Title>
+        <!-- WARNING: Optional LatLonBoundingBox could not be established for this layer.  Consider setting the EXTENT in the LAYER object, or wms_extent metadata. Also check that your data exists in the DATA statement -->
+        <MetadataURL type="TC211">
+          <Format>text/xml</Format>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://mesonet.agron.iastate.edu/cgi-bin/wms/iowa/rainfall.cgi?request=GetMetadata&amp;layer=sevendays_rainfall_legend"/>
+        </MetadataURL>
+        <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="72" height="20">
+             <Format>image/png</Format>
+             <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://mesonet.agron.iastate.edu/cgi-bin/wms/iowa/rainfall.cgi?version=1.1.1&amp;service=WMS&amp;request=GetLegendGraphic&amp;layer=sevendays_rainfall_legend&amp;format=image/png&amp;STYLE=default"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+    </Layer>
+    <Layer>
+      <Name>yesterday_rainfall</Name>
+      <Title>YESTRAIN</Title>
+      <Abstract>yesterday_rainfall</Abstract>
+    <Style>
+       <Name>default</Name>
+       <Title>default</Title>
+       <LegendURL width="99" height="245">
+          <Format>image/png</Format>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://mesonet.agron.iastate.edu/cgi-bin/wms/iowa/rainfall.cgi?version=1.1.1&amp;service=WMS&amp;request=GetLegendGraphic&amp;layer=yesterday_rainfall&amp;format=image/png&amp;STYLE=default"/>
+       </LegendURL>
+    </Style>
+      <Layer queryable="0" opaque="0" cascaded="0">
+        <Name>yesterday_rainfall_data</Name>
+        <Title>Yesterday</Title>
+        <SRS>EPSG:26915</SRS>
+        <SRS>EPSG:4326</SRS>
+        <LatLonBoundingBox minx="-96.048565" miny="40.344435" maxx="-90.067813" maxy="43.556917" />
+        <BoundingBox SRS="EPSG:26915"
+                    minx="253601" miny="4.47003e+06" maxx="736981" maxy="4.82266e+06" />
+        <MetadataURL type="TC211">
+          <Format>text/xml</Format>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://mesonet.agron.iastate.edu/cgi-bin/wms/iowa/rainfall.cgi?request=GetMetadata&amp;layer=yesterday_rainfall_data"/>
+        </MetadataURL>
+        <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="99" height="230">
+             <Format>image/png</Format>
+             <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://mesonet.agron.iastate.edu/cgi-bin/wms/iowa/rainfall.cgi?version=1.1.1&amp;service=WMS&amp;request=GetLegendGraphic&amp;layer=yesterday_rainfall_data&amp;format=image/png&amp;STYLE=default"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0">
+        <Name>yesterday_rainfall_legend</Name>
+        <Title>yestrain legend</Title>
+        <!-- WARNING: Optional LatLonBoundingBox could not be established for this layer.  Consider setting the EXTENT in the LAYER object, or wms_extent metadata. Also check that your data exists in the DATA statement -->
+        <MetadataURL type="TC211">
+          <Format>text/xml</Format>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://mesonet.agron.iastate.edu/cgi-bin/wms/iowa/rainfall.cgi?request=GetMetadata&amp;layer=yesterday_rainfall_legend"/>
+        </MetadataURL>
+        <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="72" height="20">
+             <Format>image/png</Format>
+             <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://mesonet.agron.iastate.edu/cgi-bin/wms/iowa/rainfall.cgi?version=1.1.1&amp;service=WMS&amp;request=GetLegendGraphic&amp;layer=yesterday_rainfall_legend&amp;format=image/png&amp;STYLE=default"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+    </Layer>
+    <Layer>
+      <Name>month_rainfall</Name>
+      <Title>MONTHRAIN</Title>
+      <Abstract>month_rainfall</Abstract>
+    <Style>
+       <Name>default</Name>
+       <Title>default</Title>
+       <LegendURL width="99" height="245">
+          <Format>image/png</Format>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://mesonet.agron.iastate.edu/cgi-bin/wms/iowa/rainfall.cgi?version=1.1.1&amp;service=WMS&amp;request=GetLegendGraphic&amp;layer=month_rainfall&amp;format=image/png&amp;STYLE=default"/>
+       </LegendURL>
+    </Style>
+      <Layer queryable="0" opaque="0" cascaded="0">
+        <Name>month_rainfall_data</Name>
+        <Title>This month</Title>
+        <SRS>EPSG:26915</SRS>
+        <LatLonBoundingBox minx="-96.679456" miny="40.327823" maxx="-90.055307" maxy="43.570663" />
+        <BoundingBox SRS="EPSG:26915"
+                    minx="202582" miny="4.47003e+06" maxx="737939" maxy="4.82419e+06" />
+        <MetadataURL type="TC211">
+          <Format>text/xml</Format>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://mesonet.agron.iastate.edu/cgi-bin/wms/iowa/rainfall.cgi?request=GetMetadata&amp;layer=month_rainfall_data"/>
+        </MetadataURL>
+        <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="99" height="230">
+             <Format>image/png</Format>
+             <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://mesonet.agron.iastate.edu/cgi-bin/wms/iowa/rainfall.cgi?version=1.1.1&amp;service=WMS&amp;request=GetLegendGraphic&amp;layer=month_rainfall_data&amp;format=image/png&amp;STYLE=default"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="0" opaque="0" cascaded="0">
+        <Name>month_rainfall_legend</Name>
+        <Title>monthrain legend</Title>
+        <!-- WARNING: Optional LatLonBoundingBox could not be established for this layer.  Consider setting the EXTENT in the LAYER object, or wms_extent metadata. Also check that your data exists in the DATA statement -->
+        <MetadataURL type="TC211">
+          <Format>text/xml</Format>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://mesonet.agron.iastate.edu/cgi-bin/wms/iowa/rainfall.cgi?request=GetMetadata&amp;layer=month_rainfall_legend"/>
+        </MetadataURL>
+        <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="72" height="20">
+             <Format>image/png</Format>
+             <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://mesonet.agron.iastate.edu/cgi-bin/wms/iowa/rainfall.cgi?version=1.1.1&amp;service=WMS&amp;request=GetLegendGraphic&amp;layer=month_rainfall_legend&amp;format=image/png&amp;STYLE=default"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+    </Layer>
+  </Layer>
+</Capability>
+</WMT_MS_Capabilities>
