@@ -4,7 +4,8 @@ var fs = require('fs');
 const express = require('express');
 var cors = require('cors');
 const { createProxyMiddleware } = require('http-proxy-middleware');
-const axios = require('axios'); 
+const axios = require('axios');
+const path = require('path'); 
 
 const app = express();
 app.use(express.static('public'));
@@ -32,9 +33,7 @@ app.get('/', (req,res) => {
 //defining another route
 //with express we don't need if block we can just call app.get(), we could even mother them to a secperate file
 app.get('/api/maps',(req,res) => {
-    //in a real world we would make a call to a DB
-    res.sendFile("C:/Users/AlexStacey/Documents/Innovation Team/Mock WMS Service/response.json");
-    console.log(req.query)
+    res.sendFile(path.join(__dirname,'public/response.png'));
 });
 
 /* ############################
