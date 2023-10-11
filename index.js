@@ -33,7 +33,7 @@ app.get('/', (req,res) => {
 //defining another route
 //with express we don't need if block we can just call app.get(), we could even mother them to a secperate file
 app.get('/api/maps',(req,res) => {
-    res.sendFile(path.join(__dirname,'public/response.png'));
+    res.sendFile(path.join(__dirname,'public/response.json'));
 });
 
 /* ############################
@@ -41,19 +41,19 @@ Routes for image server
 ################################ */
 app.get('/api/maps/keyProperties',(req,res) => {
   //in a real world we would make a call to a DB
-  res.sendFile("C:/Users/AlexStacey/Documents/Innovation Team/Mock WMS Service/keyProperties.json");
+  res.sendFile(path.join(__dirname,'public/keyProperties.json'));
   console.log(req.query)
 });
 
 app.get('/api/maps/multidimensionalInfo',(req,res) => {
   //in a real world we would make a call to a DB
-  res.sendFile("C:/Users/AlexStacey/Documents/Innovation Team/Mock WMS Service/multidimensionalInfo.json");
+  res.sendFile(path.join(__dirname,'public/multidimensionalInfo.json'));
   console.log(req.query)
 });
 
 app.get('/api/maps/rasterFunctionInfos',(req,res) => {
   //in a real world we would make a call to a DB
-  res.sendFile("C:/Users/AlexStacey/Documents/Innovation Team/Mock WMS Service/rasterFunctionInfos.json");
+  res.sendFile(path.join(__dirname,'public/rasterFunctionInfos.json'));
   console.log(req.query)
 });
 
@@ -73,7 +73,7 @@ app.get('/api/maps/exportImage',(req,res) => {
 
  
   //res.send(data);
-  res.sendFile("C:/Users/AlexStacey/Documents/Innovation Team/Mock WMS Service/response.png");
+  res.sendFile(path.join(__dirname,'public/response.png'));
 });
 
 //POST request to create a new course
