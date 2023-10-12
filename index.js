@@ -24,7 +24,7 @@ app.get('/api/maps',(req,res) => {
     if(req.query.callback){
       if(req.query.callback === "dojo_request_script_callbacks.dojo_request_script3"){
         //console.log("here");
-        res.sendFile(path.join(__dirname,'public/request-script.dojo_request_script3'));
+        res.sendFile(path.join(__dirname,'public/request-script.dojo_request_script0'));
       }
     }
     res.sendFile(path.join(__dirname,'public/response.json'));
