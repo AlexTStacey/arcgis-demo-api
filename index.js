@@ -27,7 +27,7 @@ app.get('/api/maps',(req,res) => {
     //     res.sendFile(path.join(__dirname,'public/request-script.dojo_request_script0'));
     //   }
     // }
-    res.sendFile(path.join(__dirname,'public/response.xml'));
+    res.sendFile(path.join(__dirname,'public/response.json'));
 });
 
 /* ############################
