@@ -1,5 +1,3 @@
-const https = require("https");
-var fs = require('fs');
 const express = require('express');
 var cors = require('cors');
 const path = require('path'); 
@@ -22,6 +20,13 @@ app.get('/', (req,res) => {
 
 //Maps route to provide resposne data for a map layers
 app.get('/api/maps',(req,res) => {
+    console.log(req.query);
+    if(req.query.callback){
+      if(req.query.callback === "dojo_request_script_callbacks.dojo_request_script3"){
+        //console.log("here");
+        res.sendFile(path.join(__dirname,'public/request-script.dojo_request_script3'));
+      }
+    }
     res.sendFile(path.join(__dirname,'public/response.json'));
 });
 
