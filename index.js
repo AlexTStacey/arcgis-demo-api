@@ -20,7 +20,7 @@ app.get('/', (req,res) => {
 
 //Maps route to provide resposne data for a map layers
 app.get('/api/maps',(req,res) => {
-    res.sendFile(path.join(__dirname,'public/states.json'));
+    res.sendFile(path.join(__dirname,'public/featureServer.json'));
 });
 
 /* ############################
