@@ -1,0 +1,1059 @@
+{
+	"objectIdFieldName": "objectid",
+	"globalIdFieldName": "",
+	"geometryType": "esriGeometryPolygon",
+	"spatialReference": {
+		"wkid": 102100,
+		"latestWkid": 102100
+	},
+	"transform": {
+		"originPosition": "upperLeft",
+		"scale": [
+			152.87405,
+			152.87405
+		],
+		"translate": [
+			-8218509.5,
+			5009377
+		]
+	},
+	"fields": [
+		{
+			"name": "STATE_NAME",
+			"type": "esriFieldTypeString",
+			"alias": "STATE_NAME",
+			"length": 25,
+			"nullable": true
+		},
+		{
+			"name": "STATE_FIPS",
+			"type": "esriFieldTypeString",
+			"alias": "STATE_FIPS",
+			"length": 2,
+			"nullable": true
+		},
+		{
+			"name": "SUB_REGION",
+			"type": "esriFieldTypeString",
+			"alias": "SUB_REGION",
+			"length": 7,
+			"nullable": true
+		},
+		{
+			"name": "STATE_ABBR",
+			"type": "esriFieldTypeString",
+			"alias": "STATE_ABBR",
+			"length": 2,
+			"nullable": true
+		},
+		{
+			"name": "LAND_KM",
+			"type": "esriFieldTypeDouble",
+			"alias": "LAND_KM",
+			"nullable": true
+		},
+		{
+			"name": "WATER_KM",
+			"type": "esriFieldTypeDouble",
+			"alias": "WATER_KM",
+			"nullable": true
+		},
+		{
+			"name": "PERSONS",
+			"type": "esriFieldTypeDouble",
+			"alias": "PERSONS",
+			"nullable": true
+		},
+		{
+			"name": "FAMILIES",
+			"type": "esriFieldTypeDouble",
+			"alias": "FAMILIES",
+			"nullable": true
+		},
+		{
+			"name": "HOUSHOLD",
+			"type": "esriFieldTypeDouble",
+			"alias": "HOUSHOLD",
+			"nullable": true
+		},
+		{
+			"name": "MALE",
+			"type": "esriFieldTypeDouble",
+			"alias": "MALE",
+			"nullable": true
+		},
+		{
+			"name": "FEMALE",
+			"type": "esriFieldTypeDouble",
+			"alias": "FEMALE",
+			"nullable": true
+		},
+		{
+			"name": "WORKERS",
+			"type": "esriFieldTypeDouble",
+			"alias": "WORKERS",
+			"nullable": true
+		},
+		{
+			"name": "DRVALONE",
+			"type": "esriFieldTypeDouble",
+			"alias": "DRVALONE",
+			"nullable": true
+		},
+		{
+			"name": "CARPOOL",
+			"type": "esriFieldTypeDouble",
+			"alias": "CARPOOL",
+			"nullable": true
+		},
+		{
+			"name": "PUBTRANS",
+			"type": "esriFieldTypeDouble",
+			"alias": "PUBTRANS",
+			"nullable": true
+		},
+		{
+			"name": "EMPLOYED",
+			"type": "esriFieldTypeDouble",
+			"alias": "EMPLOYED",
+			"nullable": true
+		},
+		{
+			"name": "UNEMPLOY",
+			"type": "esriFieldTypeDouble",
+			"alias": "UNEMPLOY",
+			"nullable": true
+		},
+		{
+			"name": "SERVICE",
+			"type": "esriFieldTypeDouble",
+			"alias": "SERVICE",
+			"nullable": true
+		},
+		{
+			"name": "MANUAL",
+			"type": "esriFieldTypeDouble",
+			"alias": "MANUAL",
+			"nullable": true
+		},
+		{
+			"name": "P_MALE",
+			"type": "esriFieldTypeDouble",
+			"alias": "P_MALE",
+			"nullable": true
+		},
+		{
+			"name": "P_FEMALE",
+			"type": "esriFieldTypeDouble",
+			"alias": "P_FEMALE",
+			"nullable": true
+		},
+		{
+			"name": "SAMP_POP",
+			"type": "esriFieldTypeDouble",
+			"alias": "SAMP_POP",
+			"nullable": true
+		},
+		{
+			"name": "objectid",
+			"type": "esriFieldTypeOID",
+			"alias": "objectid"
+		}
+	],
+	"features": [
+		{
+			"geometry": {
+				"geometryType": "esriGeometryPolygon",
+				"spatialReference": {
+					"wkid": 102100,
+					"latestWkid": 102100
+				},
+				"rings": [
+					[
+						[
+							-4322,
+							-1254
+						],
+						[
+							232,
+							-150
+						],
+						[
+							65,
+							-73
+						],
+						[
+							155,
+							-80
+						],
+						[
+							72,
+							-124
+						],
+						[
+							134,
+							-92
+						],
+						[
+							-56,
+							-181
+						],
+						[
+							39,
+							-48
+						],
+						[
+							-31,
+							-44
+						],
+						[
+							-99,
+							-24
+						],
+						[
+							16,
+							-54
+						],
+						[
+							-17,
+							-123
+						],
+						[
+							436,
+							-104
+						],
+						[
+							344,
+							7
+						],
+						[
+							180,
+							30
+						],
+						[
+							123,
+							94
+						],
+						[
+							144,
+							-34
+						],
+						[
+							337,
+							-3
+						],
+						[
+							130,
+							-65
+						],
+						[
+							13,
+							20
+						],
+						[
+							72,
+							-91
+						],
+						[
+							120,
+							-87
+						],
+						[
+							169,
+							-54
+						],
+						[
+							28,
+							-79
+						],
+						[
+							-16,
+							-50
+						],
+						[
+							-25,
+							-154
+						],
+						[
+							34,
+							-78
+						],
+						[
+							47,
+							-20
+						],
+						[
+							-4,
+							-82
+						],
+						[
+							-49,
+							-53
+						],
+						[
+							-69,
+							24
+						],
+						[
+							-48,
+							-57
+						],
+						[
+							375,
+							-297
+						],
+						[
+							65,
+							-129
+						],
+						[
+							313,
+							-300
+						],
+						[
+							262,
+							-142
+						],
+						[
+							170,
+							-46
+						],
+						[
+							520,
+							2
+						],
+						[
+							493,
+							-16
+						],
+						[
+							-5,
+							25
+						],
+						[
+							11,
+							51
+						],
+						[
+							-34,
+							87
+						],
+						[
+							10,
+							30
+						],
+						[
+							31,
+							20
+						],
+						[
+							-34,
+							77
+						],
+						[
+							11,
+							45
+						],
+						[
+							-11,
+							20
+						],
+						[
+							2,
+							27
+						],
+						[
+							-8,
+							15
+						],
+						[
+							7,
+							42
+						],
+						[
+							17,
+							25
+						],
+						[
+							10,
+							10
+						],
+						[
+							30,
+							114
+						],
+						[
+							-5,
+							28
+						],
+						[
+							-21,
+							39
+						],
+						[
+							17,
+							109
+						],
+						[
+							-52,
+							60
+						],
+						[
+							-3,
+							29
+						],
+						[
+							-19,
+							37
+						],
+						[
+							-1,
+							30
+						],
+						[
+							-19,
+							43
+						],
+						[
+							-1,
+							19
+						],
+						[
+							20,
+							27
+						],
+						[
+							-6,
+							31
+						],
+						[
+							9,
+							74
+						],
+						[
+							22,
+							29
+						],
+						[
+							-7,
+							82
+						],
+						[
+							18,
+							27
+						],
+						[
+							2,
+							22
+						],
+						[
+							-10,
+							42
+						],
+						[
+							-38,
+							83
+						],
+						[
+							3,
+							50
+						],
+						[
+							22,
+							13
+						],
+						[
+							18,
+							-46
+						],
+						[
+							44,
+							-10
+						],
+						[
+							7,
+							6
+						],
+						[
+							9,
+							26
+						],
+						[
+							-7,
+							18
+						],
+						[
+							22,
+							16
+						],
+						[
+							16,
+							47
+						],
+						[
+							-8,
+							202
+						],
+						[
+							-19,
+							370
+						],
+						[
+							-3,
+							103
+						],
+						[
+							-12,
+							33
+						],
+						[
+							20,
+							56
+						],
+						[
+							8,
+							1
+						],
+						[
+							-68,
+							239
+						],
+						[
+							-108,
+							420
+						],
+						[
+							11,
+							30
+						],
+						[
+							-24,
+							373
+						],
+						[
+							-10,
+							139
+						],
+						[
+							-10,
+							153
+						],
+						[
+							-4,
+							70
+						],
+						[
+							53,
+							80
+						],
+						[
+							-180,
+							107
+						],
+						[
+							52,
+							85
+						],
+						[
+							0,
+							13
+						],
+						[
+							-92,
+							108
+						],
+						[
+							-12,
+							52
+						],
+						[
+							-90,
+							29
+						],
+						[
+							-63,
+							95
+						],
+						[
+							0,
+							-33
+						],
+						[
+							21,
+							-57
+						],
+						[
+							40,
+							-85
+						],
+						[
+							10,
+							-40
+						],
+						[
+							9,
+							-33
+						],
+						[
+							0,
+							-36
+						],
+						[
+							-231,
+							-121
+						],
+						[
+							-21,
+							-13
+						],
+						[
+							-94,
+							-57
+						],
+						[
+							-239,
+							-149
+						],
+						[
+							-4,
+							-24
+						],
+						[
+							-26,
+							-26
+						],
+						[
+							1,
+							-20
+						],
+						[
+							-11,
+							-8
+						],
+						[
+							-28,
+							1
+						],
+						[
+							-52,
+							-17
+						],
+						[
+							-22,
+							2
+						],
+						[
+							-3,
+							-17
+						],
+						[
+							-25,
+							-21
+						],
+						[
+							-28,
+							0
+						],
+						[
+							-31,
+							-54
+						],
+						[
+							-8,
+							-26
+						],
+						[
+							-32,
+							-37
+						],
+						[
+							-2,
+							-9
+						],
+						[
+							15,
+							-23
+						],
+						[
+							-10,
+							-76
+						],
+						[
+							6,
+							-11
+						],
+						[
+							-3,
+							-43
+						],
+						[
+							-26,
+							-8
+						],
+						[
+							0,
+							-18
+						],
+						[
+							12,
+							-17
+						],
+						[
+							-27,
+							-22
+						],
+						[
+							-5,
+							-12
+						],
+						[
+							-18,
+							-6
+						],
+						[
+							-16,
+							-12
+						],
+						[
+							-61,
+							-1
+						],
+						[
+							-21,
+							-77
+						],
+						[
+							-30,
+							-14
+						],
+						[
+							-15,
+							-31
+						],
+						[
+							-27,
+							-5
+						],
+						[
+							-71,
+							2
+						],
+						[
+							-455,
+							-3
+						],
+						[
+							-29,
+							-1
+						],
+						[
+							-305,
+							-3
+						],
+						[
+							-266,
+							1
+						],
+						[
+							-29,
+							-1
+						],
+						[
+							-469,
+							5
+						],
+						[
+							-96,
+							1
+						],
+						[
+							-335,
+							-1
+						],
+						[
+							-73,
+							-1
+						],
+						[
+							-447,
+							0
+						],
+						[
+							-103,
+							-2
+						],
+						[
+							-402,
+							1
+						],
+						[
+							-109,
+							-3
+						],
+						[
+							-1,
+							-259
+						]
+					],
+					[
+						[
+							55,
+							371
+						],
+						[
+							-128,
+							35
+						],
+						[
+							121,
+							-58
+						],
+						[
+							-2,
+							-18
+						],
+						[
+							-59,
+							-15
+						],
+						[
+							-51,
+							21
+						],
+						[
+							26,
+							39
+						],
+						[
+							-90,
+							8
+						],
+						[
+							-18,
+							-55
+						],
+						[
+							53,
+							-96
+						],
+						[
+							41,
+							-56
+						],
+						[
+							106,
+							8
+						],
+						[
+							3,
+							-54
+						],
+						[
+							110,
+							-56
+						],
+						[
+							88,
+							23
+						],
+						[
+							34,
+							-42
+						],
+						[
+							157,
+							21
+						],
+						[
+							54,
+							-48
+						],
+						[
+							87,
+							-17
+						],
+						[
+							284,
+							-12
+						],
+						[
+							229,
+							-163
+						],
+						[
+							26,
+							7
+						],
+						[
+							-53,
+							31
+						],
+						[
+							-45,
+							82
+						],
+						[
+							-98,
+							57
+						],
+						[
+							-40,
+							59
+						],
+						[
+							94,
+							-14
+						],
+						[
+							133,
+							-100
+						],
+						[
+							66,
+							-11
+						],
+						[
+							92,
+							33
+						],
+						[
+							111,
+							-81
+						],
+						[
+							40,
+							10
+						],
+						[
+							-36,
+							42
+						],
+						[
+							-439,
+							208
+						],
+						[
+							-656,
+							148
+						],
+						[
+							-240,
+							64
+						]
+					],
+					[
+						[
+							389,
+							340
+						],
+						[
+							2,
+							-6
+						],
+						[
+							37,
+							0
+						],
+						[
+							138,
+							-41
+						],
+						[
+							126,
+							-59
+						],
+						[
+							69,
+							-26
+						],
+						[
+							18,
+							-4
+						],
+						[
+							-4,
+							9
+						],
+						[
+							-140,
+							56
+						],
+						[
+							-55,
+							28
+						],
+						[
+							-159,
+							44
+						],
+						[
+							-32,
+							-1
+						]
+					],
+					[
+						[
+							-298,
+							456
+						],
+						[
+							0,
+							-31
+						],
+						[
+							51,
+							-83
+						],
+						[
+							68,
+							-24
+						],
+						[
+							10,
+							46
+						],
+						[
+							-46,
+							54
+						],
+						[
+							-51,
+							33
+						],
+						[
+							-32,
+							5
+						]
+					]
+				]
+			},
+			"attributes": {
+				"STATE_NAME": "New York",
+				"STATE_FIPS": "36",
+				"HOUSHOLD": 6746555,
+				"PERSONS": 18235907,
+				"CARPOOL": 881693,
+				"EMPLOYED": 8498119,
+				"LAND_KM": 120316.171,
+				"WORKERS": 6763332,
+				"P_FEMALE": 0.521,
+				"STATE_ABBR": "NY",
+				"SAMP_POP": 2564485,
+				"UNEMPLOY": 636280,
+				"MALE": 8739138,
+				"WATER_KM": 6262.71,
+				"FEMALE": 9496769,
+				"SUB_REGION": "Mid Atl",
+				"DRVALONE": 4467866,
+				"FAMILIES": 4548344,
+				"SERVICE": 2104413,
+				"MANUAL": 1035767,
+				"PUBTRANS": 2113133,
+				"P_MALE": 0.479,
+				"objectid": 39
+			},
+			"id": "states.39"
+		}
+	]
+}
+

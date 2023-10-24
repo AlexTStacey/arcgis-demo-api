@@ -1,0 +1,29 @@
+{
+	"currentVersion": 10.51,
+	"serviceDescription": "GeoServer Web Feature Service",
+	"supportedQueryFormats": "JSON",
+	"workspace": "topp",
+	"layers": [
+		{
+			"id": 0,
+			"name": "states"
+		},
+		{
+			"id": 1,
+			"name": "tasmania_cities"
+		},
+		{
+			"id": 2,
+			"name": "tasmania_roads"
+		},
+		{
+			"id": 3,
+			"name": "tasmania_state_boundaries"
+		},
+		{
+			"id": 4,
+			"name": "tasmania_water_bodies"
+		}
+	],
+	"tables": []
+}

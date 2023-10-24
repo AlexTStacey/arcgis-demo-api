@@ -1,0 +1,41 @@
+{
+	"objectIdFieldName": "objectid",
+	"globalIdFieldName": "",
+	"geometryType": "esriGeometryPolygon",
+	"spatialReference": {
+		"wkid": 102100,
+		"latestWkid": 102100
+	},
+	"transform": {
+		"originPosition": "upperLeft",
+		"scale": [
+			9783.939,
+			9783.939
+		],
+		"translate": [
+			-20037508,
+			10018754
+		]
+	},
+	"fields": [
+		{
+			"name": "PERSONS",
+			"type": "esriFieldTypeDouble",
+			"alias": "PERSONS",
+			"nullable": true
+		},
+		{
+			"name": "STATE_ABBR",
+			"type": "esriFieldTypeString",
+			"alias": "STATE_ABBR",
+			"length": 2,
+			"nullable": true
+		},
+		{
+			"name": "objectid",
+			"type": "esriFieldTypeOID",
+			"alias": "objectid"
+		}
+	],
+	"features": []
+}

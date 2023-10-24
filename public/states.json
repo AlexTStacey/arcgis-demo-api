@@ -1,0 +1,319 @@
+{
+	"currentVersion": 10.51,
+	"id": 0,
+	"type": "Feature Layer",
+	"name": "states",
+	"defaultVisibility": true,
+	"definitionExpression": "",
+	"description": "This is some census data on the states.",
+	"displayField": "STATE_NAME",
+	"copyrightText": "",
+	"relationships": [],
+	"subLayers": [],
+	"types": [],
+	"geometryType": "esriGeometryPolygon",
+	"minScale": 0,
+	"maxScale": 0,
+	"extent": {
+		"geometryType": null,
+		"spatialReference": {
+			"wkid": 4326,
+			"latestWkid": 4326
+		},
+		"xmin": -124.731422,
+		"ymin": 24.955967,
+		"xmax": -66.969849,
+		"ymax": 49.371735
+	},
+	"drawingInfo": {
+		"renderer": {
+			"type": "classBreaks",
+			"field": "PERSONS",
+			"minValue": -1.7976931348623157e+308,
+			"classBreakInfos": [
+				{
+					"classMinValue": -1.7976931348623157e+308,
+					"classMaxValue": 2000000,
+					"label": "< 2M",
+					"description": "",
+					"symbol": {
+						"type": "esriSFS",
+						"style": "esriSFSSolid",
+						"color": [
+							77,
+							255,
+							77,
+							179
+						],
+						"outline": {
+							"type": "esriSLS",
+							"style": "esriSLSSolid",
+							"color": [
+								0,
+								0,
+								0,
+								255
+							],
+							"width": 1
+						}
+					}
+				},
+				{
+					"classMinValue": 2000000,
+					"classMaxValue": 4000000,
+					"label": "2M - 4M",
+					"description": "",
+					"symbol": {
+						"type": "esriSFS",
+						"style": "esriSFSSolid",
+						"color": [
+							255,
+							77,
+							77,
+							179
+						],
+						"outline": {
+							"type": "esriSLS",
+							"style": "esriSLSSolid",
+							"color": [
+								0,
+								0,
+								0,
+								255
+							],
+							"width": 1
+						}
+					}
+				},
+				{
+					"classMinValue": 4000000,
+					"classMaxValue": 1.7976931348623157e+308,
+					"label": "> 4M",
+					"description": "",
+					"symbol": {
+						"type": "esriSFS",
+						"style": "esriSFSSolid",
+						"color": [
+							77,
+							77,
+							255,
+							179
+						],
+						"outline": {
+							"type": "esriSLS",
+							"style": "esriSLSSolid",
+							"color": [
+								0,
+								0,
+								0,
+								255
+							],
+							"width": 1
+						}
+					}
+				}
+			]
+		},
+		"labelingInfo": [
+			{
+				"labelExpression": "[STATE_ABBR]",
+				"useCodedValues": false,
+				"symbol": {
+					"type": "esriTS",
+					"angle": 0,
+					"xoffset": 0,
+					"yoffset": 0,
+					"color": [
+						0,
+						0,
+						0,
+						255
+					],
+					"verticalAlignment": "middle",
+					"horizontalAlignment": "center",
+					"rightToLeft": false,
+					"font": {
+						"family": "Times New Roman",
+						"size": 14,
+						"style": "normal",
+						"weight": "normal"
+					}
+				},
+				"minScale": 0,
+				"maxScale": 0,
+				"placement": "center-center"
+			}
+		]
+	},
+	"hasM": false,
+	"hasZ": false,
+	"hasAttachments": false,
+	"htmlPopupType": "esriServerHTMLPopupTypeNone",
+	"fields": [
+		{
+			"name": "objectid",
+			"type": "esriFieldTypeOID",
+			"alias": "Feature Id",
+			"length": 4000,
+			"editable": false,
+			"nullable": false
+		},
+		{
+			"name": "STATE_NAME",
+			"type": "esriFieldTypeString",
+			"alias": "STATE_NAME",
+			"length": 25,
+			"editable": false,
+			"nullable": true
+		},
+		{
+			"name": "STATE_FIPS",
+			"type": "esriFieldTypeString",
+			"alias": "STATE_FIPS",
+			"length": 2,
+			"editable": false,
+			"nullable": true
+		},
+		{
+			"name": "SUB_REGION",
+			"type": "esriFieldTypeString",
+			"alias": "SUB_REGION",
+			"length": 7,
+			"editable": false,
+			"nullable": true
+		},
+		{
+			"name": "STATE_ABBR",
+			"type": "esriFieldTypeString",
+			"alias": "STATE_ABBR",
+			"length": 2,
+			"editable": false,
+			"nullable": true
+		},
+		{
+			"name": "LAND_KM",
+			"type": "esriFieldTypeDouble",
+			"alias": "LAND_KM",
+			"nullable": true
+		},
+		{
+			"name": "WATER_KM",
+			"type": "esriFieldTypeDouble",
+			"alias": "WATER_KM",
+			"nullable": true
+		},
+		{
+			"name": "PERSONS",
+			"type": "esriFieldTypeDouble",
+			"alias": "PERSONS",
+			"nullable": true
+		},
+		{
+			"name": "FAMILIES",
+			"type": "esriFieldTypeDouble",
+			"alias": "FAMILIES",
+			"nullable": true
+		},
+		{
+			"name": "HOUSHOLD",
+			"type": "esriFieldTypeDouble",
+			"alias": "HOUSHOLD",
+			"nullable": true
+		},
+		{
+			"name": "MALE",
+			"type": "esriFieldTypeDouble",
+			"alias": "MALE",
+			"nullable": true
+		},
+		{
+			"name": "FEMALE",
+			"type": "esriFieldTypeDouble",
+			"alias": "FEMALE",
+			"nullable": true
+		},
+		{
+			"name": "WORKERS",
+			"type": "esriFieldTypeDouble",
+			"alias": "WORKERS",
+			"nullable": true
+		},
+		{
+			"name": "DRVALONE",
+			"type": "esriFieldTypeDouble",
+			"alias": "DRVALONE",
+			"nullable": true
+		},
+		{
+			"name": "CARPOOL",
+			"type": "esriFieldTypeDouble",
+			"alias": "CARPOOL",
+			"nullable": true
+		},
+		{
+			"name": "PUBTRANS",
+			"type": "esriFieldTypeDouble",
+			"alias": "PUBTRANS",
+			"nullable": true
+		},
+		{
+			"name": "EMPLOYED",
+			"type": "esriFieldTypeDouble",
+			"alias": "EMPLOYED",
+			"nullable": true
+		},
+		{
+			"name": "UNEMPLOY",
+			"type": "esriFieldTypeDouble",
+			"alias": "UNEMPLOY",
+			"nullable": true
+		},
+		{
+			"name": "SERVICE",
+			"type": "esriFieldTypeDouble",
+			"alias": "SERVICE",
+			"nullable": true
+		},
+		{
+			"name": "MANUAL",
+			"type": "esriFieldTypeDouble",
+			"alias": "MANUAL",
+			"nullable": true
+		},
+		{
+			"name": "P_MALE",
+			"type": "esriFieldTypeDouble",
+			"alias": "P_MALE",
+			"nullable": true
+		},
+		{
+			"name": "P_FEMALE",
+			"type": "esriFieldTypeDouble",
+			"alias": "P_FEMALE",
+			"nullable": true
+		},
+		{
+			"name": "SAMP_POP",
+			"type": "esriFieldTypeDouble",
+			"alias": "SAMP_POP",
+			"nullable": true
+		}
+	],
+	"capabilities": "Query,Time,Data",
+	"syncCanReturnChanges": false,
+	"supportsRollbackOnFailureParameter": true,
+	"supportsStatistics": false,
+	"supportsAdvancedQueries": false,
+	"supportsCoordinatesQuantization": true,
+	"allowGeometryUpdates": true,
+	"objectIdField": "objectid",
+	"globalIdField": "",
+	"geometryField": {
+		"name": "the_geom",
+		"type": "esriFieldTypeGeometry",
+		"alias": "the_geom",
+		"editable": false,
+		"nullable": true
+	},
+	"templates": []
+}

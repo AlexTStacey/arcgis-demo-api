@@ -1,0 +1,130 @@
+{
+	"currentVersion": 10.51,
+	"id": 1,
+	"type": "Feature Layer",
+	"name": "tasmania_cities",
+	"defaultVisibility": true,
+	"definitionExpression": "",
+	"description": "Cities in Tasmania (actually, just the capital)",
+	"displayField": "CITY_NAME",
+	"copyrightText": "",
+	"relationships": [],
+	"subLayers": [],
+	"types": [],
+	"geometryType": "esriGeometryMultipoint",
+	"minScale": 0,
+	"maxScale": 0,
+	"extent": {
+		"geometryType": null,
+		"spatialReference": {
+			"wkid": 4326,
+			"latestWkid": 4326
+		},
+		"xmin": 145.19754,
+		"ymin": -43.423512,
+		"xmax": 148.27298000000002,
+		"ymax": -40.852802
+	},
+	"drawingInfo": {
+		"renderer": {
+			"type": "simple",
+			"symbol": {
+				"type": "esriSMS",
+				"angle": 0,
+				"xoffset": 0,
+				"yoffset": 0,
+				"style": "esriSMSCircle",
+				"color": [
+					255,
+					255,
+					255,
+					255
+				],
+				"size": 6,
+				"outline": {
+					"color": [
+						0,
+						0,
+						0,
+						255
+					],
+					"width": 2
+				}
+			},
+			"label": "",
+			"description": ""
+		},
+		"labelingInfo": null
+	},
+	"hasM": false,
+	"hasZ": false,
+	"hasAttachments": false,
+	"htmlPopupType": "esriServerHTMLPopupTypeNone",
+	"fields": [
+		{
+			"name": "objectid",
+			"type": "esriFieldTypeOID",
+			"alias": "Feature Id",
+			"length": 4000,
+			"editable": false,
+			"nullable": false
+		},
+		{
+			"name": "CITY_NAME",
+			"type": "esriFieldTypeString",
+			"alias": "CITY_NAME",
+			"length": 40,
+			"editable": false,
+			"nullable": true
+		},
+		{
+			"name": "ADMIN_NAME",
+			"type": "esriFieldTypeString",
+			"alias": "ADMIN_NAME",
+			"length": 42,
+			"editable": false,
+			"nullable": true
+		},
+		{
+			"name": "CNTRY_NAME",
+			"type": "esriFieldTypeString",
+			"alias": "CNTRY_NAME",
+			"length": 40,
+			"editable": false,
+			"nullable": true
+		},
+		{
+			"name": "STATUS",
+			"type": "esriFieldTypeString",
+			"alias": "STATUS",
+			"length": 50,
+			"editable": false,
+			"nullable": true
+		},
+		{
+			"name": "POP_CLASS",
+			"type": "esriFieldTypeString",
+			"alias": "POP_CLASS",
+			"length": 22,
+			"editable": false,
+			"nullable": true
+		}
+	],
+	"capabilities": "Query,Time,Data",
+	"syncCanReturnChanges": false,
+	"supportsRollbackOnFailureParameter": true,
+	"supportsStatistics": false,
+	"supportsAdvancedQueries": false,
+	"supportsCoordinatesQuantization": true,
+	"allowGeometryUpdates": true,
+	"objectIdField": "objectid",
+	"globalIdField": "",
+	"geometryField": {
+		"name": "the_geom",
+		"type": "esriFieldTypeGeometry",
+		"alias": "the_geom",
+		"editable": false,
+		"nullable": true
+	},
+	"templates": []
+}

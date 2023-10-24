@@ -20,49 +20,67 @@ app.get('/', (req,res) => {
 
 //Maps route to provide resposne data for a map layers
 app.get('/api/maps',(req,res) => {
-    // console.log(req.query);
-    // if(req.query.callback){
-    //   if(req.query.callback === "dojo_request_script_callbacks.dojo_request_script3"){
-    //     //console.log("here");
-    //     res.sendFile(path.join(__dirname,'public/request-script.dojo_request_script0'));
-    //   }
-    // }
-    res.sendFile(path.join(__dirname,'public/response.xml'));
+    res.sendFile(path.join(__dirname,'public/states.json'));
 });
 
 /* ############################
-    Routes for image server
+
+    Routes for feature server
 
     Based on testing these routes are required to serve an image layert for arcGIS maps
 
 ################################ */
 
-app.get('/api/maps/keyProperties',(req,res) => {
+// app.get('/api/maps/0',(req,res) => {
+//   //in a real world we would make a call to a DB
+//   res.sendFile(path.join(__dirname,'public/states.json'));
+//   //console.log(req.query)
+// });
+
+app.get('/api/maps/0',(req,res) => {
   //in a real world we would make a call to a DB
-  res.sendFile(path.join(__dirname,'public/keyProperties.json'));
-  console.log(req.query)
+  res.sendFile(path.join(__dirname,'public/states.json'));
+  //console.log(req.query)
 });
 
-app.get('/api/maps/multidimensionalInfo',(req,res) => {
+app.get('/api/maps/0/query',(req,res) => {
   //in a real world we would make a call to a DB
-  res.sendFile(path.join(__dirname,'public/multidimensionalInfo.json'));
-  console.log(req.query)
+  res.sendFile(path.join(__dirname,'public/state_query.json'));
+  //console.log(req.query)
 });
 
-app.get('/api/maps/rasterFunctionInfos',(req,res) => {
-  //in a real world we would make a call to a DB
-  res.sendFile(path.join(__dirname,'public/rasterFunctionInfos.json'));
-  console.log(req.query)
-});
+// app.get('/api/maps/1',(req,res) => {
+//   //in a real world we would make a call to a DB
+//   res.sendFile(path.join(__dirname,'public/tasmania_cities.json'));
+//   //console.log(req.query)
+// });
 
-app.post('/api/maps/exportImage',(req,res) => {
-  if(error) {
-      //res.status(400).send(result.error);
-      //Above is sending back the "compex" error object, belwo we are seeding the spefici error msg
-      return res.status(400).send(error.details[0].message);
-  }
-  res.send("Posted");
-});
+// app.get('/api/maps/2',(req,res) => {
+//   //in a real world we would make a call to a DB
+//   res.sendFile(path.join(__dirname,'public/tasmania_roads.json'));
+//   //console.log(req.query)
+// });
+
+// app.get('/api/maps/3',(req,res) => {
+//   //in a real world we would make a call to a DB
+//   res.sendFile(path.join(__dirname,'public/tasmania_state_boundaries.json'));
+//   //console.log(req.query)
+// });
+
+// app.get('/api/maps/4',(req,res) => {
+//   //in a real world we would make a call to a DB
+//   res.sendFile(path.join(__dirname,'public/tasmania_water_bodies.json'));
+//   //console.log(req.query)
+// });
+
+// app.post('/api/maps/exportImage',(req,res) => {
+//   if(error) {
+//       //res.status(400).send(result.error);
+//       //Above is sending back the "compex" error object, belwo we are seeding the spefici error msg
+//       return res.status(400).send(error.details[0].message);
+//   }
+//   res.send("Posted");
+// });
 
 
 /*##########################################################################*/

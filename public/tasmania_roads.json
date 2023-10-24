@@ -1,0 +1,86 @@
+{
+	"currentVersion": 10.51,
+	"id": 2,
+	"type": "Feature Layer",
+	"name": "tasmania_roads",
+	"defaultVisibility": true,
+	"definitionExpression": "",
+	"description": "Main Tasmania roads",
+	"displayField": "TYPE",
+	"copyrightText": "",
+	"relationships": [],
+	"subLayers": [],
+	"types": [],
+	"geometryType": "esriGeometryPolyline",
+	"minScale": 0,
+	"maxScale": 0,
+	"extent": {
+		"geometryType": null,
+		"spatialReference": {
+			"wkid": 4326,
+			"latestWkid": 4326
+		},
+		"xmin": 145.19754,
+		"ymin": -43.423512,
+		"xmax": 148.27298000000002,
+		"ymax": -40.852802
+	},
+	"drawingInfo": {
+		"renderer": {
+			"type": "simple",
+			"symbol": {
+				"type": "esriSLS",
+				"style": "esriSLSSolid",
+				"color": [
+					170,
+					51,
+					51,
+					255
+				],
+				"width": 2
+			},
+			"label": "",
+			"description": ""
+		},
+		"labelingInfo": null
+	},
+	"hasM": false,
+	"hasZ": false,
+	"hasAttachments": false,
+	"htmlPopupType": "esriServerHTMLPopupTypeNone",
+	"fields": [
+		{
+			"name": "objectid",
+			"type": "esriFieldTypeOID",
+			"alias": "Feature Id",
+			"length": 4000,
+			"editable": false,
+			"nullable": false
+		},
+		{
+			"name": "TYPE",
+			"type": "esriFieldTypeString",
+			"alias": "TYPE",
+			"length": 7,
+			"editable": false,
+			"nullable": true
+		}
+	],
+	"capabilities": "Query,Time,Data",
+	"syncCanReturnChanges": false,
+	"supportsRollbackOnFailureParameter": true,
+	"supportsStatistics": false,
+	"supportsAdvancedQueries": false,
+	"supportsCoordinatesQuantization": true,
+	"allowGeometryUpdates": true,
+	"objectIdField": "objectid",
+	"globalIdField": "",
+	"geometryField": {
+		"name": "the_geom",
+		"type": "esriFieldTypeGeometry",
+		"alias": "the_geom",
+		"editable": false,
+		"nullable": true
+	},
+	"templates": []
+}

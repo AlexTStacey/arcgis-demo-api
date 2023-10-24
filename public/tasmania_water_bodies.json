@@ -1,0 +1,124 @@
+{
+	"currentVersion": 10.51,
+	"id": 4,
+	"type": "Feature Layer",
+	"name": "tasmania_water_bodies",
+	"defaultVisibility": true,
+	"definitionExpression": "",
+	"description": "Tasmania water bodies",
+	"displayField": "CNTRY_NAME",
+	"copyrightText": "",
+	"relationships": [],
+	"subLayers": [],
+	"types": [],
+	"geometryType": "esriGeometryPolygon",
+	"minScale": 0,
+	"maxScale": 0,
+	"extent": {
+		"geometryType": null,
+		"spatialReference": {
+			"wkid": 4326,
+			"latestWkid": 4326
+		},
+		"xmin": 145.97161899999998,
+		"ymin": -43.031944,
+		"xmax": 147.219696,
+		"ymax": -41.775558
+	},
+	"drawingInfo": {
+		"renderer": {
+			"type": "simple",
+			"symbol": {
+				"type": "esriSFS",
+				"style": "esriSFSSolid",
+				"color": [
+					64,
+					64,
+					192,
+					255
+				],
+				"outline": {
+					"type": "esriSLS",
+					"style": "esriSLSSolid",
+					"color": [
+						0,
+						0,
+						0,
+						255
+					],
+					"width": 1
+				}
+			},
+			"label": "",
+			"description": ""
+		},
+		"labelingInfo": null
+	},
+	"hasM": false,
+	"hasZ": false,
+	"hasAttachments": false,
+	"htmlPopupType": "esriServerHTMLPopupTypeNone",
+	"fields": [
+		{
+			"name": "objectid",
+			"type": "esriFieldTypeOID",
+			"alias": "Feature Id",
+			"length": 4000,
+			"editable": false,
+			"nullable": false
+		},
+		{
+			"name": "AREA",
+			"type": "esriFieldTypeInteger",
+			"alias": "AREA",
+			"nullable": true
+		},
+		{
+			"name": "PERIMETER",
+			"type": "esriFieldTypeInteger",
+			"alias": "PERIMETER",
+			"nullable": true
+		},
+		{
+			"name": "WATER_TYPE",
+			"type": "esriFieldTypeString",
+			"alias": "WATER_TYPE",
+			"length": 20,
+			"editable": false,
+			"nullable": true
+		},
+		{
+			"name": "CNTRY_NAME",
+			"type": "esriFieldTypeString",
+			"alias": "CNTRY_NAME",
+			"length": 40,
+			"editable": false,
+			"nullable": true
+		},
+		{
+			"name": "CONTINENT",
+			"type": "esriFieldTypeString",
+			"alias": "CONTINENT",
+			"length": 13,
+			"editable": false,
+			"nullable": true
+		}
+	],
+	"capabilities": "Query,Time,Data",
+	"syncCanReturnChanges": false,
+	"supportsRollbackOnFailureParameter": true,
+	"supportsStatistics": false,
+	"supportsAdvancedQueries": false,
+	"supportsCoordinatesQuantization": true,
+	"allowGeometryUpdates": true,
+	"objectIdField": "objectid",
+	"globalIdField": "",
+	"geometryField": {
+		"name": "the_geom",
+		"type": "esriFieldTypeGeometry",
+		"alias": "the_geom",
+		"editable": false,
+		"nullable": true
+	},
+	"templates": []
+}
